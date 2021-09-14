@@ -10,6 +10,8 @@ public class Number2Add
 		
 		
 		//test for git
+		
+		System.out.print("你好我好大家好");
 
 	}
 
