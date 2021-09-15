@@ -15,6 +15,7 @@ public class Number2Add
 		System.out.print("你好我好大家好");
 
 		System.out.print("你好我好大家好");
+		System.out.print("你好我好大家好");
 
 
 	}
