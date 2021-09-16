@@ -3,7 +3,7 @@ package com.leetCodeStudy.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RemoveDuplicatesFromSortedArray
+public class RemoveDuplicatesFromSortedArray_001
 {
 	// Remove Duplicates from Sorted Array
 	// 删除排序数组中的重复项
@@ -49,17 +49,14 @@ public class RemoveDuplicatesFromSortedArray
 	{
 		if(nums.length==0)return 0;
 		
-		int normalP=1;//fastP;
-		normalP=1;//fastP=0;
-		int temp;
+		int normalP=1;
+		normalP=1;
 		
 		for(int fastP=1;fastP<nums.length;fastP++)
 		{
 			if(nums[fastP]!=nums[normalP-1])
 			{
-				//temp=nums[normalP];
 				nums[normalP]=nums[fastP];
-				
 				normalP++;        //最后位置在 修正后数组的有效位下一位的地方
 			}
 		}
