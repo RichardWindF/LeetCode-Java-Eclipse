@@ -3,7 +3,7 @@ package com.leetCodeStudy.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RemoveDuplicatesFromSortedArray_001
+public class RemoveDuplicatesFromSortedArray_026_001
 {
 	// Remove Duplicates from Sorted Array
 	// 删除排序数组中的重复项
