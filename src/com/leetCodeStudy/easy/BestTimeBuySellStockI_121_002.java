@@ -1,5 +1,6 @@
 package com.leetCodeStudy.easy;
 
+ 
 public class BestTimeBuySellStockI_121_002
 {
 	public static void prt(Object o)
