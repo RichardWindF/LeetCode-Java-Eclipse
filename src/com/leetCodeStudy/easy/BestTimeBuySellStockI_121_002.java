@@ -15,14 +15,14 @@ public class BestTimeBuySellStockI_121_002
 		int[] prices3= {7,6,4,3,1};     //0
 		
 		
-		prt("maxProfit1最大收益："+new Solution().maxProfit1(prices1));
-		prt("maxProfit1最大收益："+new Solution().maxProfit1(prices2));
-		prt("maxProfit1最大收益："+new Solution().maxProfit1(prices3));
+		prt("maxProfit1最大收益："+new Solution002().maxProfit1(prices1));
+		prt("maxProfit1最大收益："+new Solution002().maxProfit1(prices2));
+		prt("maxProfit1最大收益："+new Solution002().maxProfit1(prices3));
 		//-----------------------------------------------
 		prt("-----------------------------------------------------");
-		  prt("maxProfit2最大收益："+new Solution().maxProfit2(prices1));
-		  prt("maxProfit2最大收益："+new Solution().maxProfit2(prices2));
-		  prt("maxProfit2最大收益："+new Solution().maxProfit2(prices3));
+		  prt("maxProfit2最大收益："+new Solution002().maxProfit2(prices1));
+		  prt("maxProfit2最大收益："+new Solution002().maxProfit2(prices2));
+		  prt("maxProfit2最大收益："+new Solution002().maxProfit2(prices3));
 		 
 	}
 
@@ -30,7 +30,7 @@ public class BestTimeBuySellStockI_121_002
 
 
 //--------------------------
-class Solution {
+class Solution002 {
 	
 	//方法1： 暴力查询
 	//两个指针，嵌套双层循环，找出最大盈利

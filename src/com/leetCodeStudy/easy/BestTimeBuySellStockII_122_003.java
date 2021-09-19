@@ -13,14 +13,14 @@ public class BestTimeBuySellStockII_122_003
 		int[] prices2= {1,2,3,4,5};    //4
 		int[] prices3= {7,6,4,3,1};     //0
 		
-		  prt("maxProfit1最大收益："+new Solution1().maxProfit(prices1));
-		  prt("maxProfit1最大收益："+new Solution1().maxProfit(prices2));
-		  prt("maxProfit1最大收益："+new Solution1().maxProfit(prices3));
+		  prt("maxProfit1最大收益："+new Solution003().maxProfit(prices1));
+		  prt("maxProfit1最大收益："+new Solution003().maxProfit(prices2));
+		  prt("maxProfit1最大收益："+new Solution003().maxProfit(prices3));
 	}
 }
 
 //----------------------------------
-class Solution1     //前面一个文件已经定义了类 Solution , 所以这里换个名字
+class Solution003     //前面一个文件已经定义了类 Solution , 所以这里换个名字
 {
     public int maxProfit(int[] prices)
     {
