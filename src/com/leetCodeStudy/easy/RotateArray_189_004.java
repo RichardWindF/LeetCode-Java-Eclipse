@@ -3,7 +3,9 @@ package com.leetCodeStudy.easy;
 import java.util.Arrays;
 
 /**
- * here are 2 ways to resolved this question 1: 暴力查询+额外空间 2： 3次反序数组及子数组完成
+ * here are 2 ways to resolved this question 
+ * 1: 暴力查询+额外空间 
+ * 2： 3次反序数组及子数组完成
  * 
  * @author Richard F.
  *

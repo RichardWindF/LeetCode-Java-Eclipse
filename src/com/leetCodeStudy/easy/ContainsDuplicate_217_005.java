@@ -71,6 +71,7 @@ class Solution005
 			set.add(mInt);
 		}
 
+		//System.out.println(set.toString()); //
 		return false;
 
 	}
