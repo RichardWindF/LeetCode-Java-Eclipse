@@ -8,8 +8,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * 两个数组的交集 2 ways to resolve question 1st way: HashSet-里面没有重复元素（但List and Map
- * 均可以有） 2nd way:
+ * 两个数组的交集 2 ways to resolve question 
+ * 1st way: HashSet-里面没有重复元素（但List and Map
+ * 均可以有） 
+ * 2nd way: 暴力查询+HashSet
  * 
  * @author Richard F.
  *
@@ -23,7 +25,7 @@ public class IntersectionTwoArraysI_349_007
 
 	public static void main(String... args)
 	{
-		int[] nums1 = { 1, 2, 2, 1 }, nums2 = { 2, 2 }; // Output: [2,2]
+		int[] nums1 = { 1, 2, 2, 1 }, nums2 = { 2, 2 }; // Output: [2]
 		int[] nums3 = { 4, 9, 5 }, nums4 = { 9, 4, 9, 8, 4 }; // Output: [4,9], Explanation: [9,4] is also accepted.
 
 		prt("resolved by 1st way:");
