@@ -34,8 +34,8 @@ public class ValidSudoku_036_012
 
 		prt("----------------------------------------------------");
 		prt("resolved by 2nd way:");
-		//prt(new Solution012().isValidSudoku2(new Datas().board1));
-		prt(new Solution012().isValidSudoku2(Datas.board1));
+		prt(new Solution012().isValidSudoku2(new Datas().board1));
+		//prt(new Solution012().isValidSudoku2(Datas.board1));
 		prt(new Solution012().isValidSudoku2(Datas.board2));
 	}
 
