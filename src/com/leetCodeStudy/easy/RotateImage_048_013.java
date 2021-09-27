@@ -72,7 +72,7 @@ class Solution013
 		return matrix;
 	}
 
-	private int[][] rotateOnDiagonal(int[][] matrix)
+	private int[][]  rotateOnDiagonal(int[][] matrix)
 	{
 
 		for (int i = 0; i < matrix.length; i++)
