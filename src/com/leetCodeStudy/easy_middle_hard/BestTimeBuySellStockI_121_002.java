@@ -1,4 +1,4 @@
-package com.leetCodeStudy.easy;
+package com.leetCodeStudy.easy_middle_hard;
 
  
 public class BestTimeBuySellStockI_121_002
