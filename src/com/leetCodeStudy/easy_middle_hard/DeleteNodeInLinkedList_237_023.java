@@ -45,6 +45,7 @@ public class DeleteNodeInLinkedList_237_023
 
 		LinkedList mList = new LinkedList();
 		
+		
 		//ListNode node = new ListNode(head1.length);
 		for (int i = 0; i < head1.length; i++)
 		{
