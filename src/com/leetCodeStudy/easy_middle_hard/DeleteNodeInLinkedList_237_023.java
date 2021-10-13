@@ -89,7 +89,7 @@ class SingleLinkedList
 		{
 			if (temp.next == null)
 				break;
-			temp = temp.next; // 指针前进（写法与c++区别挺大的：-）
+			temp = temp.next; // 指针前进（写法与c++区别挺大的：-）到尾部
 		}
 
 		temp.next = listNode;
