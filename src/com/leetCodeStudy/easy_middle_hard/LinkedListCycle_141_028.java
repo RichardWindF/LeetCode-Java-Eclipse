@@ -84,7 +84,8 @@ class Solution028
 
 		while (fastP != null && fastP.next != null)
 		{
-			fastP = fastP.next.next; // 每次进2 步，所以要保证 fastP, fastP.next 两个指针指向的都不为空指针（确保了3个节点）
+			fastP = fastP.next.next; 
+			// 每次进2 步，所以要保证 fastP, fastP.next 两个指针指向的都不为空指针（确保了2个节点）,fastP.next.next也有，哪怕为空
 			slowP = slowP.next;
 			
 			if(fastP==slowP) return true;
