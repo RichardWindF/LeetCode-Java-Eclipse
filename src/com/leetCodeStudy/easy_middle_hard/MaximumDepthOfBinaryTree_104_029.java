@@ -24,7 +24,7 @@ import java.util.Queue;
  * 
  * 2nd way:  迭代的方法，使用辅助  Queue  来做
  *     Queue<TreeNode> mQueue=new LinkedList<>();       //先进先出-队列Queue
- *     size=mQueue.size();      //每层的节点个数（每层的长度）--为何？
+ *     size=mQueue.size();      //每层的节点个数（每层的长度）--为何？-提供的值是每层的
  *     
  *
  * @author Richard.Feng
