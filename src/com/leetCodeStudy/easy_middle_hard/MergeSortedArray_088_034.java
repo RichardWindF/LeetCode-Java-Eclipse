@@ -10,10 +10,16 @@ import java.util.List;
  * * 2 ways to resolve question- Merge Sorted Array--合并排序的数组
  * 
  * 1st way: 暴力查询，合并?
+ *      nums1=Arrays.copyOf(nums1, m+n);     //nums1数组 变长度    //题设应该已经有了的条件
+		  List<Integer> mList = new ArrayList<>();
+		  Arrays.sort(nums1);
  * 
  * 
  * 
- * 2nd way: 用List?
+ * 2nd way: 用List?  
+ *       nums1=Arrays.copyOf(nums1, m+n);     //nums1数组 变长度
+		  List<Integer> mList = new ArrayList<>();
+		  Arrays.sort(nums1);
  *
  * @author Richard.Feng
  */
@@ -82,7 +88,7 @@ class Solution034
 	public void merge1(int[] nums1, int m, int[] nums2, int n)
 	{
 		
-		  nums1=Arrays.copyOf(nums1, m+n);     //nums1数组 变长度
+		 nums1=Arrays.copyOf(nums1, m+n);     //nums1数组 变长度
 		  List<Integer> mList = new ArrayList<>();
 		  
 		  for (int i = 0; i < m; i++) { mList.add(nums1[i]); }
