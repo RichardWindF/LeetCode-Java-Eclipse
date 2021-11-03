@@ -12,6 +12,7 @@ package com.leetCodeStudy.easy_middle_hard.DynamicProgramming;
  * 
  * 
  * 2nd way: Dynamic Programming--动态规划的方法--贪心算法
+ * minPrice  maxProfit
  *
  *
  * @author Richard.Feng

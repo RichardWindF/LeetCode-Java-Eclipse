@@ -49,15 +49,15 @@ public class MaximumDepthOfBinaryTree_104_029
 
 //树节点定义--------------------------------------------
 
-class TreeNode
+class TreeNode11
 {
 	int val;
-	TreeNode left;
-	TreeNode right;
+	TreeNode11 left;
+	TreeNode11 right;
 	
-	TreeNode(){};
-	 TreeNode(int val) { this.val = val; };
-	 TreeNode(int val, TreeNode left, TreeNode right) {
+	TreeNode11(){};
+	 TreeNode11(int val) { this.val = val; };
+	 TreeNode11(int val, TreeNode11 left, TreeNode11 right) {
 		 this.val = val;
 		 this.left = left;
 		 this.right = right;
@@ -84,7 +84,7 @@ class Solution029
 {
 	//1st way:  递归的方法，左右子树求高度，取大值+1（根的那一层）
 	
-    public int maxDepth1(TreeNode root) 
+    public int maxDepth1(TreeNode11 root) 
     {
     	if(root==null) return 0;           //根节点是否存在
     	
@@ -95,11 +95,11 @@ class Solution029
     
     
     //2nd way:  迭代的方法，使用辅助  Queue  来做
-     public int maxDepth2(TreeNode root) 
+     public int maxDepth2(TreeNode11 root) 
      {
     	if(root==null) return 0;
     	
-    	Queue<TreeNode> mQueue=new LinkedList<>();       //先进先出-队列Queue
+    	Queue<TreeNode11> mQueue=new LinkedList<>();       //先进先出-队列Queue
     	int depth=0, size=0;     //depth 最后高度，size 树每一层的节点数！
     	mQueue.offer(root);      //树的根节点插入队列，--默认广度优先 存储遍历?
     	
@@ -108,7 +108,7 @@ class Solution029
     		size=mQueue.size();      //每层的节点个数（每层的长度）--下面每层的左右放入。。。
     		while(size>0)            //判断 每一层 的节点被遍历完
     		{
-    			TreeNode node=mQueue.poll();          //从队列中取出节点
+    			TreeNode11 node=mQueue.poll();          //从队列中取出节点
     			size--;
     			if(node.left!=null) mQueue.offer(node.left);
     			if(node.right!=null) mQueue.offer(node.right);
