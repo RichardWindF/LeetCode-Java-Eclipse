@@ -26,7 +26,6 @@ import java.util.Map;
  * 
  * 2nd way:
  * 
- * 3rd way:
  * 
  * 
  * @author Richard.Feng
