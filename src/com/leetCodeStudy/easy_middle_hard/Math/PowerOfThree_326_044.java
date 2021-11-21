@@ -7,7 +7,7 @@ package com.leetCodeStudy.easy_middle_hard.Math;
  * 
  * 
  * 1st way: log 的转换公式去做 double x=(Math.log(n)/Math.log(3));
- * if(Math.abs(x-Math.round(x))<1e-10) //关键,由题设 -231 <= n <= 231 - 1 ，算出是10 位
+ * if(Math.abs(x-Math.round(x))<1e-10) //关键,由题设 -231 <= n <= 231 - 1 ，数出是10 位
  * //此时认为是整数 //1e-10实际上是指1乘以10的-10次方
  * 
  * 2nd way: 纯数学方法考虑 if(Math.pow(3, 20)%n==0) return true; //自己去算出 Integer 的 3
