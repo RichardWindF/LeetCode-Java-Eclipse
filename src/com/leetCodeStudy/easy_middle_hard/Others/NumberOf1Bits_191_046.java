@@ -5,7 +5,7 @@ package com.leetCodeStudy.easy_middle_hard.Others;
 /**
  * Others
  * 
- * * 2 ways to resolve question-- Number of 1 Bits--
+ * * 2 ways to resolve question-- Number of 1 Bits-- 任何数字在2进制格式中1的个数
  * 
  * 
  * 
